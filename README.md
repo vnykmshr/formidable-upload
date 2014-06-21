@@ -81,6 +81,13 @@ Resize an uploaded image to height of 100 with aspect ration
           }
       })
 
+
+### imguri
+Convert the uploaded image to data uri, sets `req.files.userfile.data` with Base64 encoded data.
+
+      imguri()
+
+
 ### process
 Generic handler to pass custom transformation code in the processing chain. Functions passed to `process` must have the
 signature
