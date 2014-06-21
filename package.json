@@ -1,0 +1,31 @@
+{
+    "name": "formidable-upload",
+    "version": "0.0.1",
+    "description": "Chainable file upload api for express using formidable",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test"
+    },
+    "dependencies": {
+        "formidable": "*",
+        "async": "*",
+        "mkdirp": "*",
+        "magickwand": "*",
+        "imguri": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:vnykmshr/formidable-upload.git"
+    },
+    "keywords": [
+    "formidable",
+    "express",
+    "file",
+    "upload"
+  ],
+    "author": "Vinayak Mishra <viks@vnykmshr.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vnykmshr/formidable-upload/issues"
+    }
+}
