@@ -1,6 +1,6 @@
 {
     "name": "formidable-upload",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Chainable file upload api for express using formidable",
     "main": "index.js",
     "scripts": {
@@ -9,9 +9,11 @@
     "dependencies": {
         "formidable": "*",
         "async": "*",
-        "mkdirp": "*",
-        "magickwand": "*",
-        "imguri": "*"
+        "mkdirp": "*"
+    },
+    "optionalDependencies": {
+        "imguri": "*",
+        "magickwand": "*"
     },
     "repository": {
         "type": "git",
