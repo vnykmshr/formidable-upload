@@ -1,6 +1,6 @@
 {
     "name": "formidable-upload",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Chainable file upload api for express using formidable",
     "main": "index.js",
     "scripts": {
