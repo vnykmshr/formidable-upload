@@ -2,6 +2,7 @@
     "name": "formidable-upload",
     "version": "0.0.3",
     "description": "Chainable file upload api for express using formidable",
+    "deprecated": "This package is deprecated. Use formidable v3 with its built-in filter, filename, and fileWriteStreamHandler options instead. See https://github.com/node-formidable/formidable",
     "main": "index.js",
     "scripts": {
         "test": "node test"

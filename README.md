@@ -1,6 +1,17 @@
 # Formidable Upload
 
-Chainable file upload api for express using [formidable](https://github.com/felixge/node-formidable).
+> **DEPRECATED**: This package is no longer maintained. Formidable v3 now provides most of these features natively:
+> - Use `filter` option for MIME type validation (replaces `.accept()`)
+> - Use `uploadDir` + `filename` options for file storage (replaces `.to()`)
+> - Use `fileWriteStreamHandler` for custom storage (S3, Azure, GCP)
+> - Use [sharp](https://www.npmjs.com/package/sharp) for image processing (replaces `.resize()`)
+> - Use [express-formidable](https://www.npmjs.com/package/express-formidable) for Express middleware
+>
+> See [formidable documentation](https://github.com/node-formidable/formidable) for migration guidance.
+
+---
+
+Chainable file upload api for express using [formidable](https://github.com/node-formidable/formidable).
 
 ## Installation
 
